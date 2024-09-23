@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#btn1  {
+    background-color: red;
+    inline-size: 150px;
+    font-size:25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.content{
+    background-color: blueviolet;
+    width: 180px;
+    text-align: center;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+    border-radius: 2rem;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.5);
+}
+
+.reset-game {
+    height: 50px;
+    width: 100px;
+    border-radius: 1rem;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.5);    
+    background-color: #191913;
+    color: white;
+    cursor: pointer;
+}
+
+#new-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 1rem;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.5);  
+    background-color: #191913;
+    color: white;
+    cursor: pointer;
+}
+
+.msg-container {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vmin;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+.heading {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
